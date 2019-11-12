@@ -1,22 +1,20 @@
 .App {
-  text-align: center;
+max-width: 1032px;
+  width: 90%;
+  margin: 0 auto;
+
+}
+.bg-promo{
+  background: url("https://a0.muscache.com/4ea/air/r:w3100-h2074-sfit,e:fjpg-c80/pictures/0ffd8594-f123-43f0-85bb-7ef88c6f0624.jpg") no-repeat center ;
+  padding: 64px calc(50vw - 50%);
+  margin: 0px calc(50% - 50vw);
+  background-size: cover;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.main-search{
+  background: white;
+  width: 50%;
+  border-radius: 3px;
+  padding: 32px;
 }
